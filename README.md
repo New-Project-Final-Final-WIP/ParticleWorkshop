@@ -19,7 +19,7 @@ Created by Gareth48 with some huge help from Epsilion!
 1. Once you've created a particle, save it to your inventory, remove the launch option addition and reboot Neos
 1. Enjoy your new particle! Feel free to use it as you please, if you do something neat with it I would love to see a picture!
 
-##Known issues
+## Known issues
 1. You cannot add duplicate color or alpha transitions
 1. You can only add up to 8 unique color transitions AND 8 unique alpha transitions
 1. The gradient display will not update unless your sliders are linearly ordered by time
