@@ -4,7 +4,8 @@ A simple plugin for creating particles with color and alpha over time in [Neos V
 Created by Gareth48 with some huge help from Epsilion!
 
 ## Getting Started (For Users)
-1. Download the plugin and extract ParticleWorkshop.dll
+1. Click this link to go to [releases](https://github.com/New-Project-Final-Final-WIP/ParticleWorkshop/releases)
+1. Download the .dll
 1. Navigate to your Libraries directory, usually ~\Steam\steamapps\common\NeosVR\Libraries
 1. Place the dll in that folder
 1. In steam, right click Neos VR and select Properties
