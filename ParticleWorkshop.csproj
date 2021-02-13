@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseX">
+      <HintPath>E:\Steam\steamapps\common\NeosVR\BaseX.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeX">
+      <HintPath>E:\Steam\steamapps\common\NeosVR\Neos_Data\Managed\CodeX.dll</HintPath>
+    </Reference>
+    <Reference Include="FrooxEngine">
+      <HintPath>E:\Steam\steamapps\common\NeosVR\Neos_Data\Managed\FrooxEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy /Y &quot;$(TargetDir)$(TargetName).dll&quot; &quot;E:\Steam\steamapps\common\NeosVR\Libraries\$(TargetName).dll" />
+  </Target>
+
+</Project>

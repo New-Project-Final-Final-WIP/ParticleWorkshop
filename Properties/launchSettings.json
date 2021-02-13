@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ParticleWorkshop": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Steam\\steamapps\\common\\NeosVR\\Neos.exe",
+      "commandLineArgs": "Screen -verbose -DontAutoOpenCloudHome -LoadAssembly \"Libraries\\$(TargetName).dll\"",
+      "workingDirectory": "E:\\Steam\\steamapps\\common\\NeosVR"
+    }
+  }
+}
