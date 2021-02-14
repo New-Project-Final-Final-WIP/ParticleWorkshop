@@ -6,13 +6,6 @@ using CodeX;
 
 namespace ParticleWorkshop
 {
-    public class SyncLinearKey<T> : SyncObject where T : IEquatable<T>
-    {
-        [Range(0.0f, 1f, "0.0000")]
-        public readonly Sync<float> Position;
-        public readonly Sync<T> Value;
-        public static implicit operator LinearKey<T>(SyncLinearKey<T> key) => new LinearKey<T>(key.Position.Value, key.Value.Value);
-    }
     [Category("Gareth")]
     class ParticleMaster : Component, ICustomInspector
     {
